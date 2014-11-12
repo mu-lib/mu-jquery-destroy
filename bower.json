@@ -9,9 +9,10 @@
     "Mikael Karon"
   ],
   "description": "Micro jQuery Destroy",
-  "main": "jquery.destroy.js",
+  "main": "main.js",
   "moduleType": [
-    "amd"
+    "amd",
+    "node"
   ],
   "license": "MIT",
   "ignore": [
@@ -20,7 +21,7 @@
     "bower_components",
     "test"
   ],
-  "devDependencies": {
-    "requirejs": "~2"
+  "dependencies": {
+    "jquery": ">=1.4 <4"
   }
 }
